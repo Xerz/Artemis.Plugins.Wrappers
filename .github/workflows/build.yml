@@ -20,7 +20,7 @@ jobs:
         with:
           repository: Artemis-RGB/Artemis
           path: Artemis
-          ref: feature/avalonia
+          ref: feature/avalonia-11
 
       - name: Build Artemis Core
         run: dotnet build .\Artemis\src\Artemis.Core\Artemis.Core.csproj
